@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Autofill Extension</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    input[type="text"], input[type="password"], input[type="email"] {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Autofill</h1>
+  <input type="text" id="search" placeholder="Search..."><br>
+  <input type="text" id="firstName" placeholder="First Name"><br>
+  <input type="text" id="middleName" placeholder="Middle Name"><br>
+  <input type="text" id="lastName" placeholder="Last Name"><br>
+  <input type="text" id="phone" placeholder="Phone Number"><br>
+  <input type="text" id="address" placeholder="Address"><br>
+  <input type="text" id="city" placeholder="City"><br>
+  <input type="text" id="state" placeholder="State"><br>
+  <input type="text" id="zip" placeholder="Zip"><br>
+  <input type="text" id="dob" placeholder="Date of Birth"><br>
+  <input type="text" id="ssn" placeholder="SSN"><br>
+  <input type="email" id="email" placeholder="Email Address"><br>
+  <input type="text" id="username" placeholder="Username"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+
+  <button id="save">Save</button>
+  <button id="autofill">Autofill</button>
+  <button id="lock">Lock</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

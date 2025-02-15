@@ -1,0 +1,11 @@
+{
+  "name": "chrome-extension-preview",
+  "version": "1.0.0",
+  "description": "Web preview for Chrome extension popup",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^4.5.9"
+  }
+}

@@ -1,3 +1,1 @@
-chrome.runtime.onInstalled.addListener(() => {
-  console.log('Extension installed!');
-});
+// Implement options page logic here (e.g., profile management)
